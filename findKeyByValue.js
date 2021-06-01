@@ -27,3 +27,32 @@ const bestTVShowsByGenre = {
 
 assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
 assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
+
+// const battleShipData = [
+//   [null, 0, 0, 1],
+//   [0, null, null, null],
+//   [0, null, null, null],
+//   [1, null, null, null],
+// ];
+
+// const print = (data) => {
+//   for (const row of data) {
+//     let line = "|";
+
+//     for (const column of row) {
+//       if (column === 0) {
+//         line += "O";
+//       } else if (column === 1) {
+//         line += "X";
+//       } else if (column === null) {
+//         line += " ";
+//       }
+
+//       line += "|";
+//     }
+
+//     console.log(line);
+//   }
+// }
+
+// print(battleShipData);
