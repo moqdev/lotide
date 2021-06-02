@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@monaqwaseem/lotide",
   "version": "1.0.0",
   "description": "Lotide is a module that provides methods for working with arrays.",
   "main": "assertArraysEqual.js",
