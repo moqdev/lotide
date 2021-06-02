@@ -4,13 +4,13 @@ const middle = require('../middle.js');
 describe("#middle", () => {
 
   it("should be equal to [2,3] for [1,2,5,3]", () => {
-    const initial = middle([1, 2, 3, 4]);
-    const output = [2, 3];
+    const ini = middle([1, 2, 3, 4]);
+    const outi = [2, 3];
     assert.deepEqual(initial, output);
   });
 
   it("should return empty array when array length is less than 3", () => {
-    const input = middle([1]);
+    const ini = middle([1]);
     const output = [];
     assert.deepEqual(input, output);
   })
