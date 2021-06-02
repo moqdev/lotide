@@ -37,7 +37,6 @@ module.exports = {
   letterPositions,
   takeUntil,
   without,
-  titleCase
 };
 
 // // Shorter version:
